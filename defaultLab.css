@@ -1,0 +1,157 @@
+
+:root {
+    --blurVal: 0px;
+}
+
+@font-face {
+    font-family: motelKing;
+    src: url('Motel King Medium.ttf');
+}
+
+body {
+    margin:0;
+    background-color:#313C49;
+}
+
+.container {
+    padding: 0px;
+    margin-top:0px;
+    color: #ECECDB;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 369px;
+    inline-size: 850px; 
+    line-height: 1.4;
+}
+
+h1, h2, h3,
+h4, h5, h6, 
+strong {
+    color: white;
+}
+
+a {
+    color: #52BE00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+code { 
+    border-radius: 10px;
+    padding: 15px;
+    background: #272038;
+    color: #0ACF96;
+}
+
+input:not([type=checkbox]):not([type=radio]), textarea { 
+    display: block;
+    border-radius: 10px;
+    padding: 15px;
+    background: #272038;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    margin-block-start: 5px;
+    margin-block-end: 10px;
+}
+
+input:not([type=checkbox]):not([type=radio]):focus, textarea:focus {
+    border-color: #1C84A3;
+}
+
+input[type=checkbox] {
+    margin-block-start: 30px;
+    margin-block-end: 5px;
+}
+
+input:not([type=checkbox]):not([type=radio]) { 
+    width: 175px;
+}
+
+textarea {
+    width: 850px;
+    height: 125px;
+}
+
+.label {
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #1D262D;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    margin-block-start: 5px;
+    -moz-transition: color .2s ease-in;
+    -o-transition: color .2s ease-in;
+    -webkit-transition: color .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+button:hover {
+    background: #161C21;
+}
+
+figcaption { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+    padding-top: 15px;
+    border-top-style: inset;
+    border-top-width: 1px;
+    border-top-color:#637A91;
+}
+
+.parallax {
+    background-image: url("2fort_bridge.png");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.95vw;
+    padding-left: 369px;
+    -webkit-filter: blur(var(--blurVal));
+    -moz-filter: blur(var(--blurVal));
+    -o-filter: blur(var(--blurVal));
+    -ms-filter: blur(var(--blurVal));
+    filter: blur(var(--blurVal));
+}
+
+.title {
+    font-family: motelKing;
+    font-size: 3em;
+    text-align: center;
+    max-width: 600px;
+    overflow: hidden;
+    margin: 0 auto 50px;
+    background-size: cover;
+    color: white;
+    top: 185px;
+    left:40px;
+    position: relative;
+}
+
+.circular--square { 
+    border-radius: 50%;
+}
+  
+.block {
+    position: relative;
+    float:left;
+}
+
+ul {
+    padding-right: 1em;
+}
+
